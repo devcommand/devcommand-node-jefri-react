@@ -1,0 +1,38 @@
+{
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "grunt",
+    "features": "grunt features",
+    "watch": "grunt watcher"
+  },
+  "dependencies": {
+    "devcommand-rupert-plugin-react": "^0.1.2",
+    "jefri": "^1.2.4",
+    "rupert": "^0.3.1",
+    "rupert-doorman": "0.0.7",
+    "rupert-plugin-babel": "0.0.1",
+    "rupert-plugin-bootstrap": "^0.1.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "rupert-grunt": "^0.1.1"
+  },
+  "name": "devcommand",
+  "description": "DevCommand: Open Sourced Pre-Alpha",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcommand/devcommand-node-jefri-react.git"
+  },
+  "keywords": [
+    "devcommand"
+  ],
+  "author": "Matthew Beatty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devcommand/devcommand-node-jefri-react/issues"
+  },
+  "homepage": "https://github.com/devcommand/devcommand-node-jefri-react#readme"
+}
